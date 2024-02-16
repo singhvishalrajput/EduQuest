@@ -1,0 +1,101 @@
+header{
+    margin-top: 0px;
+}
+header .row{
+    margin: 50px 0px;
+
+}
+
+header .row h5{
+    color: var(--btn-color);
+    font-size: 20px;
+    margin: -40px 0px 10px 0px;
+
+}
+header h3{
+    color: var(--main-color);
+    font-size: 50px;
+    margin: 30px 0px;
+    font-weight: bold;
+    letter-spacing:0.8px ;
+    word-spacing: 5px;
+    
+}
+
+header button{
+    background-color: var(--orange-color) !important;
+    width: 130px;
+    height:60px  ;
+    border: 1px solid var(--orange-color) !important;
+    border-radius: 8px !important;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: .2s ease;
+    
+}
+header button a{
+    color: aliceblue;
+    font: 17px;
+    transition: .2s ease;
+}
+
+header button:hover a{
+    color: #fff;
+
+}
+header button:hover{
+    opacity: 0.6;
+}
+
+header span{
+    display:block ;
+    font-size: 100px;
+    color: #ca9136;
+}
+
+header .header-box{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+
+}
+.col-md-6:last-child {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px; /* Adjust the padding as needed */
+    align-items: center;
+}
+
+.header-box {
+    position: relative;
+}
+
+header img{
+    margin-top: -10px;
+    max-width: 100%;
+    width: 400px;
+    height: 350px;
+    animation: mover 1s infinite alternate;
+    transition: .3s ease all;
+}
+
+@keyframes mover {
+    0%{
+        transform: translateY(0px) ;
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+    
+}
+
+header svg{
+    color: var(--btn-color);
+    font-size: 60px;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    margin-left: -80px;
+    animation: mover 2s infinite alternate;
+    
+}
