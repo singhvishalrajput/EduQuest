@@ -15,7 +15,7 @@ header .row h5{
 header h3{
     color: var(--main-color);
     font-size: 50px;
-    margin: 30px 0px;
+    margin: 20px 0px;
     font-weight: bold;
     letter-spacing:0.8px ;
     word-spacing: 5px;
@@ -37,6 +37,8 @@ header button a{
     color: aliceblue;
     font: 17px;
     transition: .2s ease;
+    
+    
 }
 
 header button:hover a{

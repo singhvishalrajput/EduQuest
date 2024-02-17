@@ -15,7 +15,7 @@ const Home = () => {
                         
                         <h3>Effortless Question Creation and Personalized Feedback with EduQuest.</h3>
                         <button><a href="read">Summarize Notes</a></button>
-                        <button><a href="read">Generate Questions</a></button>
+                        <button><a href="/generative">Generate Questions</a></button>
                         <button><a href="read">Prepare for Interview</a></button>
                         
                     </div>

@@ -4,9 +4,11 @@ import './App.css';
 
 import Home from './pages/Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Summarize from './pages/summarize.js';
+import Summarize from './pages/Summarize.js';
 import Login from './pages/login.js';
 import SignUp from './pages/SignUp.js';
+import Generative from './pages/generative.js';
+
 
 
 
@@ -23,7 +25,7 @@ function App() {
                   <Home/>
                   </Route> 
                   
-                  <Route path="/summarize">
+                  <Route exact path="/summarize">
                   <Summarize/>
                   </Route>
                   <Route exact path="/login">
@@ -34,6 +36,11 @@ function App() {
                     <SignUp/>
 
                     </Route> 
+                    <Route exact path="/generative">
+                      <Generative/>
+
+                    </Route>
+                    
 
                 </Switch>
 

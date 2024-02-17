@@ -17,8 +17,8 @@ const Navbars = () => {
             
             <Nav.Link href="/"className='/'>Home</Nav.Link>
               <NavDropdown title="Services" id="basic-nav-dropdown">
-                <NavDropdown.Item href="http://localhost:3000/summarize">Summmarize Notes</NavDropdown.Item> 
-                <NavDropdown.Item href="#action/3.1">Generate Questions</NavDropdown.Item> 
+                <NavDropdown.Item href="/summarize">Summmarize Notes</NavDropdown.Item> 
+                <NavDropdown.Item href="/generative">Generate Questions</NavDropdown.Item> 
                 <NavDropdown.Item href="#action/3.1">FAQ's</NavDropdown.Item> 
 
               </NavDropdown>

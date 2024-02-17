@@ -1,14 +1,20 @@
-
 .container_main {
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #f0f0f0; 
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 10px;
+    padding: 20px 40px;
+    position: absolute;
+    left: 50%;
+    top: 110px; /* Adjust the vertical position */
+    transform: translate(-50%, 0);
+    
+    
+    
+   
 }
 
 h1 {
@@ -28,12 +34,12 @@ label {
 input[type="text"], 
 input[type="email"], 
 input[type="password"] {
-    width: 50%;
+    width: 100%; /* Adjusted width to occupy full width */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box; 
-    ;
+    margin-top: 5px; /* Added margin-top to separate input fields */
 }
 
 button[type="submit"] {

@@ -1,0 +1,40 @@
+/* .container {
+  max-width: 600px; 
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}  */
+
+.upload-section, .summary-section {
+  margin-bottom: 20px; 
+}
+
+h2 { 
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+input[type='file'] {
+  margin-bottom: 15px; 
+}
+
+button { 
+  background-color: #008CBA; 
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+button:hover {
+  background-color: #0071a1; 
+}
+
+.summary-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+} 
