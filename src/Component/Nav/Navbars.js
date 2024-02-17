@@ -2,6 +2,7 @@
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
 import './Nav.css'
 // import logoo from '../../Assets/logoo.png'
+import { Link } from 'react-router-dom';
 const Navbars = () => {
     return (
         <Navbar expand="lg">
@@ -13,7 +14,8 @@ const Navbars = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className='active'>Home</Nav.Link>
+            
+            <Nav.Link href="/"className='/'>Home</Nav.Link>
               <NavDropdown title="Services" id="basic-nav-dropdown">
                 <NavDropdown.Item href="http://localhost:3000/summarize">Summmarize Notes</NavDropdown.Item> 
                 <NavDropdown.Item href="#action/3.1">Generate Questions</NavDropdown.Item> 
@@ -22,8 +24,9 @@ const Navbars = () => {
               </NavDropdown>
            <Nav.Link href="#home">Information</Nav.Link>
             <Nav.Link>
-              <button className='contact'>Contact Us</button>
-              
+              <Link to="/login">
+              <button className='contact'>Sign In/Up</button>
+              </Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

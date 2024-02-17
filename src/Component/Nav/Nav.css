@@ -41,14 +41,14 @@ nav .navbar-nav .active{
 }
 nav .navbar-nav button{
 
-    background-color: var(--btn-color);
+    background-color: #f6cccc;
     border: 1px solid var(--btn-color);
-    width: 105px;
+    width: 140px;
     height: 35px;
     color: #fff;
     text-transform: uppercase;
     font-size: 15px;
-    margin-left:180px;
+    margin-left:165px;
     margin-top: -10px;
     border-radius: 7px;
     display: flex;
